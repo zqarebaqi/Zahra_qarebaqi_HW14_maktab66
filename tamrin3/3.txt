@@ -1,0 +1,51 @@
+ÓæÇá 1) 
+ Difference between npm and npx
+
+npm - Package manager  í˜ ÇÈÒÇÑí ÈÑÇí äÕÈ ˜íÌ åÇ 
+  npx - Package runner í˜ ÇÈÒÇÑí ÈÑÇí ÇÌÑÇ ˜ÑÏä ˜íÌ åÇ 
+
+ÈÑÇí ãËÇá ÇÑ ÇÒ npm create-react-app my-app ÇÓÊİÇÏå ˜äíã¡ local package create-react-app ÇÒ Ñæí ÓíÓÊã ÇÌÑÇ ãíÔæÏ íÚäí ÈÑÇí ÇÌÑÇ ÔÏä Çíä ˜íÌ ãÍáí¡ ŞÈá Çíä˜å Çíä Ñæå ÑíÇ˜Ê Ñæ ÈÇ npm äÕÈ ˜äíã¡ ÈÇíÏ ŞÈáÇ ÈÕæÑÊ globally Ñæí ÓíÓÊã ÈÇ ÏÓÊæÑ npm install -g create-react-app äÕÈ ˜äíã æ ÈÚÏ ÈÊæäíã Ñæå åÇí ÑíÇ˜Ê Ñæ Ñæí ÓíÓÊã äÕÈ ˜äíã. æ ÈÑÇí ÇÌÑÇí í˜ ˜íÌ å local å global ÈÇ npm¡ ÈÇíÏ Çæä ˜íÌ Ñæ Êæ İÇíá package.json ãÔÎÕ ˜äí.
+æáí Çå ÇÒ npx create-react-app my-app ÇÓÊİÇÏå ˜äíã æ ŞÈáÇ create-react-app Ñæ ÈÕæÑÊ globally Ñæí ÓíÓÊã äÕÈ ä˜ÑÏå ÈÇÔíã¡ ÈÇ Çíä ÏÓÊæÑ create-react-app Ñæí ÈÑäÇãå ÏÇäáæÏ ãíÔå æáí ÈÕæÑÊ globally äÕÈ äãíÔå. Çíä ÈÑÇí ÒãÇä åÇíí ÓÊ ˜å äãíÎæÇåíã åãåí ˜íÌåÇ Ñæ Ñæí ÓíÓÊã äÕÈ ˜äíã æ İŞØ ˜íÌåÇí ãæÑÏäíÇÒãæä Ñæ Êæ ÈÑäÇãå ÏÇÔÊå ÈÇÔíã æ ÇÌÑÇ ˜äíã Îíáí ÎæÈå. ÈÑÇí ÇÌÑÇí ˜íÌåÇí local æ ˜íÌ åÇíí ˜å ŞÈáÇ äÕÈ ä˜ÑÏíã Îíáí ÑÇÍÊ ãíÊæäíã ÈÇ ÏÓÊæÑ npx ÇÌÑÇ ˜äíã. ÏÑ æÇŞÚ ÈÇ ÏÓÊæÑ npx  ÈÏæä äíÇÒ Èå äÕÈ ãíÊæÇä ãÓÊŞíãÇ ÇÒ Âä ÇÌÑÇ ˜ÑÏ.
+
+ãäÈÚ: https://virgool.io/@happyycodee/comment/nitwv8bj4dajqqr
+ãäÈÚ 2: https://roocket.ir/articles/yes-its-npx-not-npm-the-difference-explained
+_____________________________________________________________________
+ÓæÇá 2)
+ãİåæã component :
+Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML.
+Components come in two types, Class components and Function components.
+
+˜ÇãæääÊ åÇ Ê˜å ˜Ï åÇíí åÓÊäÏ ˜å ãíÊæÇä ÇÒ Âä åÇ åÑÌÇíí ÏÑ Ñæå ÇÓÊİÇÏå ˜ÑÏ æ ÏÑ ÇÕØáÇÍ reusable åÓÊäÏ .
+ÏÑ Ñí Ç˜Ê Ïæ äæÚ ˜ÇãæääÊ ãíÊæÇä äæÔÊ ¡ í˜í Èå Ô˜á ÊÇÈÚ æ ÏíÑí Èå Ô˜á ˜áÇÓ (class components , functional components).
+
+ãäÇÈÚ:
+https://www.w3schools.com/react/react_components.asp#:~:text=Components%20are%20independent%20and%20reusable,will%20concentrate%20on%20Function%20components.
+
+https://virgool.io/iran-react-community/%DA%A9%D8%A7%D9%85%D9%BE%D9%88%D9%86%D9%86%D8%AA-%D9%87%D8%A7-%D8%AF%D8%B1-%D8%B1%DB%8C-%D8%A7%DA%A9%D8%AA-gxatvwucn1em
+
+ãİåæã state  :
+
+React components has a built-in state object.
+The state object is where you store property values that belongs to the component.
+When the state object changes, the component re-renders.
+ÏÑ ÇÓÊíÊ ÒãÇäí˜å ÊÛííÑí ÑÎ ãíÏå render  ÇäÌÇã ãíÔå æáí ÒãÇäí˜å ÇÒ ˜ÇãæääÊ ÇÓÊİÇÏå ãí˜äíã Çíä ÇÊİÇŞ äãíæİÊå ãØÇÈŞ ãËÇá 
+Todolist Çæáíå æ ÒãÇäí˜å todoitem  Ñæ ÇÖÇİå ˜ÑÏíã ãÑ Çíä˜å ÇÓÊíÊ ˜ÇãæääÊ åã ÏÇÑ ÊÛííÑÈÔå.
+ÇÓÊíÊ í˜ ÇÈÌ˜Ê ÈÑÇí äå ÏÇÑí ÏíÊÇåÇí ãÑÈæØ Èå í˜ ˜ÇãæääÊ.
+
+ãäÇÈÚ : https://www.w3schools.com/react/react_state.asp 
+
+
+ÓæÇá 3)
+
+React components automatically re-render whenever there is a change in their state or props.
+A simple update of the state, from anywhere in the code, causes all the User Interface (UI) elements to be re-rendered automatically
+Re-render can be caused due to any of the three reasons listed:
+Update in State
+Update in prop
+Re-rendering of the parent component 
+Update in state: The state change can be from a prop or setState change to update a variable(say). The component gets the updated state and React re-renders the component to reflect the change on the app.
+Update in prop: Likewise the change in prop leads to state change and state change leads to re-rendering of the component by React.
+Re-rendering of parent component: Whenever the components render function is called, all its subsequent child components will re-render, regardless of whether their props have changed or not.
+
+ãäÈÚ:
+https://www.geeksforgeeks.org/re-rendering-components-in-reactjs/#:~:text=React%20components%20automatically%20re%2Drender,in%20their%20state%20or%20props.&text=A%20simple%20update%20of%20the,to%20be%20re%2Drendered%20automatically
